@@ -5,7 +5,7 @@ nombre = input("Por favor, ingresa tu nombre: ")
 print("Hola,", nombre, "! Bienvenido a Python.")
 
 variable_entera = input("ingresa un numero entero: ")
-print("ingresaste el numero "+variable_entera)
+
 variable_decimal = input("ingresa un numero decimal: ")
 print("ingresaste "+variable_decimal)
 variable_texto = input("ingresa una palabra: ")

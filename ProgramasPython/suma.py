@@ -1,0 +1,11 @@
+print("Ingrese un numero")
+num1=int(input())
+print("Ingrese otro numero")
+num2=int(input())
+print("Ingrese otro numero")
+num3=int(input())
+print("los resultados son:")
+print("suma: ",num1+num2)
+print("mult: ",num1*num2)
+print("prom: ",(num1+num2+num3)/3)
+
