@@ -37,14 +37,16 @@
     
 # edad=18
 # color="Azul"
-# # grupo="B"
-# # if edad>=18 or grupo=="A":
-# #     print("Usted es mayor y pertenece al grupo A")
-# # elif edad>=18 and grupo=="B":
-# #     print("Usted es mayor y pertenece al grupo B")
-# # else:
-# #     print("Usted no es mayor y no pertenece a ningun grupo")
+# grupo="B"
+# if edad>=18 or grupo=="A":
+#     print("Usted es mayor y pertenece al grupo A")
+# elif edad>=18 and grupo=="B":
+#     print("Usted es mayor y pertenece al grupo B")
+# else:
+#     print("Usted no es mayor y no pertenece a ningun grupo")
     
-# if color=="Azul" or color=="Negro" or color=="Rojo":
-#     print("Usted tiene al menos un color")
+
+color="Azul"
+if color=="Azul" or color=="Negro" or color=="Rojo":
+    print("Usted tiene al menos un color")
 

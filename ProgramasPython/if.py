@@ -16,3 +16,5 @@ if alex<sam:
         print("Sam es mayor que todos")
     else:
         print("Sam solo es mayor que Alex")
+
+        
