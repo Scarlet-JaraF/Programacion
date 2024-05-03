@@ -1,5 +1,5 @@
-#validar si un ticket esta dentro del rango valido entre 100 y 750
-#validar si va a cancha o a galeria
+# validar si un ticket esta dentro del rango valido entre 100 y 750
+# validar si va a cancha o a galeria
 
 # ticket= int(input("Ingrese unmero de ticket: "))
 
