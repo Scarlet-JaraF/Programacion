@@ -1,21 +1,21 @@
-# tacos=1
-# pizza=2
-# humitas=3
-# cazuela=4
+tacos=1
+pizza=2
+humitas=3
+cazuela=4
 
-# print("Elija una opccion de comida")
-# op=int(input())
+print("Elija una opccion de comida")
+op=int(input())
 
-# if op==(1):
-#     print("Usted prefiere los tacos")
-# elif(op==(2)):
-#     print("Usted prefiere la pizza")
-# elif(op==(3)):
-#     print("Usted prefiere las humitas")    
-# elif(op==(4)):
-#     print("Usted prefiere la cazuela")
-# else:
-#     print("Usted es regodion")  
+if op==(1):
+    print("Usted prefiere los tacos")
+elif(op==(2)):
+    print("Usted prefiere la pizza")
+elif(op==(3)):
+    print("Usted prefiere las humitas")    
+elif(op==(4)):
+    print("Usted prefiere la cazuela")
+else:
+    print("Usted es regodion")  
 
 #************************************************************
 
@@ -46,7 +46,7 @@
 #     print("Usted no es mayor y no pertenece a ningun grupo")
     
 
-color="Azul"
-if color=="Azul" or color=="Negro" or color=="Rojo":
-    print("Usted tiene al menos un color")
+# color="Azul"
+# if color=="Azul" or color=="Negro" or color=="Rojo":
+#     print("Usted tiene al menos un color")
 

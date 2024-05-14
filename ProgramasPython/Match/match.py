@@ -1,7 +1,7 @@
 
-stay=True
+
 gasto=0
-while stay:
+while True:
 
    print("--Bienvenido al sistema Python")
    print("Seleccione una opcion")
@@ -26,7 +26,7 @@ while stay:
            print("*************************************************************")
        case 5:
            print("Saliendo...")
-           stay=False
+           break
 
        case _:
            print("no valido")

@@ -59,7 +59,10 @@ while True:
             print("Ingrese 2 numeros")
             num1=int(input())
             num2=int(input())
-            print("Su resultado es ",divi(num1,num2))
+            if num2==0:
+                print("No es posible dividir entre 0")
+            else:
+                print("Su resultado es ",divi(num1,num2))
 
 
 
