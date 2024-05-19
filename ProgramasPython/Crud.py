@@ -11,20 +11,29 @@ import random
 
 
 
-bingo=[45,17,24,46,90]
-comodin=random.randint(10,99)
+# bingo=[45,17,24,46,90]
+# comodin=random.randint(10,99)
 
-while comodin in bingo:
-  if comodin in bingo:
-      #print("creando nuevo comodin")
-      comodin=random.randint(10,99)
-bingo.append("comodin")
-bingo.append(comodin)    
+# while comodin in bingo:
+#   if comodin in bingo:
+#       #print("creando nuevo comodin")
+#       comodin=random.randint(10,99)
+# bingo.append("comodin")
+# bingo.append(comodin)    
 
 
-for num in bingo:
-    print(num)
-g=random.randint(0,4)    
-print("Numero ganador ",bingo[g])    
+# for num in bingo:
+#     print(num)
+# g=random.randint(0,4)    
+# print("Numero ganador ",bingo[g])    
+
+lis=["p","pp","t"]
+g=random.randint(0,2)
+print("robot hizo ", lis[g])
+
+
+
+
+
     
     
