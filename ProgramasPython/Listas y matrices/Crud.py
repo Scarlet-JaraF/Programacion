@@ -27,10 +27,13 @@ import random
 # g=random.randint(0,4)    
 # print("Numero ganador ",bingo[g])    
 
-lis=["p","pp","t"]
-g=random.randint(0,2)
-print("robot hizo ", lis[g])
+# lis=["p","pp","t"]
+# g=random.randint(0,2)
+# print("robot hizo ", lis[g])
 
+lista=[1,2,3,4,5,6]
+tupla= tuple(lista)
+print(tupla)
 
 
 
