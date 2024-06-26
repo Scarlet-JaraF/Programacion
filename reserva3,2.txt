@@ -1,0 +1,7 @@
+Estimado pasajero, los datos de su reserva son los siguientes:
+Nombre: sasas
+Rut: 4544
+Asiento: 2
+fila: 3
+Clase: Ejecutivo
+---.Gracias por su compra.---

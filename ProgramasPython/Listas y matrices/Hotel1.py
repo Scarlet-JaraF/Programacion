@@ -64,5 +64,5 @@ while True:
 
         case 4:
             f=open 
-                with open('archivo_hotel.csv', 'w', newline='') as archivo_csv:
+            with open('archivo_hotel.csv', 'w', newline='') as archivo_csv:
                  escritor_csv = csv.write([hotel])

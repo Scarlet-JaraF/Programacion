@@ -1,0 +1,7 @@
+Estimado pasajero, los datos de su reserva son los siguientes:
+Nombre: Scarlet
+Rut: 17.255
+Asiento: 5
+fila: 15
+Clase: Turista
+---.Gracias por su compra.---
