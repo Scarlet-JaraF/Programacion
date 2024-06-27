@@ -1,7 +1,0 @@
-Estimado pasajero, los datos de su reserva son los siguientes:
-Nombre: fdfdf
-Rut: 131
-Asiento: 1
-fila: 1
-Clase: Ejecutivo
----.Gracias por su compra.---

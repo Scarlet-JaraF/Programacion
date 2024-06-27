@@ -37,17 +37,19 @@ while True:
     op = int(input("Seleccione una opción: "))    
     match op:
         case 1:
-                asiento=int(input("Ingrese numero de asiento de 1 a 6:  ->"))
-                while asiento<1 or asiento>6:
-                        print("opcion invalida")
-                        print("Ingrese numero de asiento de 1 a 6:  ->")
-                        asiento=int(input())
                 
                 fila=int(input("Ingrese numero de fila de 1 a 16:  ->"))
                 while fila<1 or fila>16:
                         print("opcion invalida")
                         print("Ingrese numero de fila de 1 a 16:  ->")
                         fila=int(input())
+                        
+                asiento=int(input("Ingrese numero de asiento de 1 a 6:  ->"))
+                while asiento<1 or asiento>6:
+                        print("opcion invalida")
+                        print("Ingrese numero de asiento de 1 a 6:  ->")
+                        asiento=int(input())
+                        
                 
                 if asientos[fila-1][asiento-1]:
                                 print("Asiento no disponible")
@@ -80,8 +82,9 @@ while True:
                     print(e)
 
         case 4:
-            with open('archivo_reservas.csv', 'w', newline='') as archivo_csv:
-            escritor_csv = csv.writer(asientos)
+            with open('archivo_reservas.csv', 'w' , newline='') as archivo_csv:
+                writer= csv.writer(archivo_csv, delimiter=';')
+                writer.writerows(asientos)
                               
         case 5:
                 asiento=int(input("Ingrese numero de asiento de 1 a 6:  ->"))
@@ -95,7 +98,7 @@ while True:
                         print("opcion invalida")
                         print("Ingrese numero de fila de 1 a 16:  ->")
                         fila=int(input())
-                asientos[fila-1][asientos-1]={}
+                asientos[fila-1][asiento-1]={}
                 
 
 
