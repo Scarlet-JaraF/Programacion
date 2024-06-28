@@ -1,5 +1,0 @@
-Patente: ABC123
-Hora de Llegada: 2024-06-27 17:46:05
-Hora de Salida: 2024-06-27 17:46:08
-Duración Total: 0.05 minutos
-Costo Total: 0.75 pesos
