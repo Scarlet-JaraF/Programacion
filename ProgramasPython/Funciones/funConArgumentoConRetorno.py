@@ -1,6 +1,6 @@
 def suma(a,b):
     sumar = a + b
-    return(sumar)
+    return sumar
     
 num1 = int(input("Ingrese primer número: "))
 num2 = int(input("Ingrese segundo número: "))
