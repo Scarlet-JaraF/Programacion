@@ -1,9 +1,3 @@
-#crear edificio de estacionamientos de 5 pisos y 30 espacios por piso
-#se debe registrar la petente y la hora de llegada, ademas, al salir, debe 
-#calcular cuntos minutos estuvo en el estacionamiento y cobrar
-#cada minuto vale 15 pesos
-#debe guardar una boleta en .txt que diga los datos , hora llegada, hora salida y 
-#patente y el total a cobrar
 import time
 from datetime import datetime
 
@@ -17,8 +11,7 @@ parking=[[[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[
 def asignarlugar():
     for piso in range(4):
         for lugar in range(29):
-            if parking[piso][lugar] is None:
-                
+            if parking[piso][lugar] == []:
                 return piso, lugar
     return None, None
 
@@ -36,7 +29,7 @@ def salir(patente):
     for n in range(4):
         for m in range(29):
             lugar=parking[n][m]
-            if lugar and lugar['patente'] == patente:
+            if lugar['patente'] == patente:
                 llego=parking[n][m]["entrada"]
                 print(f"Hora de llegada: {llego.strftime("%X")}")
                 salida= datetime.now()
